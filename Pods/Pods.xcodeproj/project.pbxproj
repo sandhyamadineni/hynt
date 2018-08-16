@@ -1,0 +1,2269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D001B0525429A21C927F2E2D073F7A2 /* DropDown.swift */; };
+		054639B0385BA11CDFE766E3B31CFD7D /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC33BA82C34D09B465720514C8D1021 /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BC89F9FD2B1DC48FBA0B78EADF1CB6 /* DropDownCell.swift */; };
+		0A7AF0E9B853211DE831CAAD4C21F11C /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F6D486A8614BCF226436C2EBD70EF1 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C80DB342510E9E9321FBE270FFE1A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		0DD46AF65FABE6D2BDE4501F807046A6 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D74BDBF6F6E9766F655B4925229370 /* FSCalendarAppearance.m */; };
+		1EBB5121C4545A0E009022F5C1EAA09D /* JTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C479274904A9316D0E62245A3A23D /* JTCalendarDayView.m */; };
+		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F2452A583CF1271EBCA0A3BCFDED2 /* JVFloatLabeledTextField-dummy.m */; };
+		22B2B5F3C94C242D162CC00EC4F14310 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 002CAD91125F31D84B2D3C64D0FDB1E4 /* NBNumberFormat.m */; };
+		232C7277329679ED188DE4EF423BA28C /* UIFloatLabelTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F4E587AD1F0C8492062182D513449B /* UIFloatLabelTextView.m */; };
+		243B9FA63C5E0497B5E37531A449C4BB /* JTCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB7AA9EFBD1D2DD0AC2D4E33C2977E2 /* JTCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243C1CAC78B826C75ADBB74D18DE0C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		243E3FBB25AD6B55CDF6971E0D22DA4F /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 28954D3C80C4083DE01323C5815708BE /* FSCalendarConstants.m */; };
+		2728662C4DA06ED276E83310682A5652 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F83AA2EEDB047702D98542BCF8395D /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27A59E4505A5AA88A43B8C0D561C3D6B /* Pods-hyntTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A0C77EA9429901A91F5E221708C853 /* Pods-hyntTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C81B83B197687339BAFEBACF834A7E7 /* Pods-hynt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CBDF5C906ED6962881B796AFF967B9 /* Pods-hynt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4793B11F6511A1C188BB794FF685F6 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 404B8670DB11671AF415A8E3E736AEEC /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E9CD6F441E6B30601549781F5DB2D12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		2F0BAB070948B762475A50B5B10818EC /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF18D943B704ACD0F9D6187E5CF1C9E /* JTDateHelper.m */; };
+		310361CE75893671536852D251EF2965 /* JTCalendarMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FF552F1AB2C8DCE384C1AD94F918ED /* JTCalendarMenuView.m */; };
+		3160FE445C0D90A20AE73A4C9B7576E8 /* JTCalendarPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2388168838742911828CC64B8CE5D077 /* JTCalendarPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC425A48674DEA22ABBA6173B7EC39 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B93BD6EF90A4C8503865BA5A261D97E /* DropDownCell.xib */; };
+		385C599D0428B7DDC3A9BAC6667FF0B4 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E86EB353AD932624A2A14CE7C8B455 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE2DDF21B6444FB9A99049B83418D36 /* Pods-hyntTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B255EC58F06866CC48524B16AC415461 /* Pods-hyntTests-dummy.m */; };
+		3D284A341F5C87509CF6534F8D5E123F /* JTCalendarDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B858C8FA52DBC29AC4DA75B8509B18F /* JTCalendarDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E56943C3F8A140BB52C923E3DDD5E5E /* JTCalendarScrollManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B816BF763B498C70345364300B17C7 /* JTCalendarScrollManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF9B6657B9A9822C3AC3F42F7850D1C /* JTCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 472AE7216C16FF7145B29C08D12FA4AF /* JTCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419F8A84894707DCEE244BB4BF56825F /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D060676465AE044A47DAD2CB507879 /* NBMetadataHelper.m */; };
+		442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296B9C70EE3B88A46A65BB4C2478EDA /* DropDown+Appearance.swift */; };
+		47ADAA487B332C0BE92AADA45A945D88 /* JTCalendarWeek.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D68170357C5EE33F21F80D1AB16B9F1 /* JTCalendarWeek.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F1C59A34E52484FD2B6462CE8D7C91 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DFCC1C07B7467AC271E8BB989AF9488C /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B23649D5D47A1D543CAD57FE0C55485 /* JTCalendarDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EA4F275C7C8EC713ED23D6D7F9B0C8 /* JTCalendarDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55257B6A99903EB37356CC258508F98E /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF068E7FE98DDD72899E91CB6D0E3E1 /* NBPhoneNumberDefines.m */; };
+		55F4561E55A6CF264BEDB8FB18B5FA8C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912C0D403DC98EF7B3A03EA8AC7B8CD /* FSCalendarCell.m */; };
+		57D4F36C483A487950FA1F143AE5DCBC /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 215380F8B62436F73495BE2718B44FB4 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C62C27E2855390100E9519DE3095DDB /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E30D3330BC4DB53F23FF6FCACDFF8E /* FSCalendarHeaderView.m */; };
+		609C01755F6E60329D1849FC34911CD5 /* JTCalendarWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9872E3696EF4C86EF27692FD762CF5BA /* JTCalendarWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625F05F7702CA250DEB66A699766DA9E /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E1E1775B4BCA28D3B57E5C7F0215FE /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		644CF20680709923E73B3EABD64EFDD4 /* JTCalendarWeekDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4318B58E6244AAB217CBF6DD1A632C8F /* JTCalendarWeekDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64AB5C8C4A9C63B94DCD3653E2BA1E6F /* JTCalendarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E349600967CC52A343C744C344FCDFA /* JTCalendarDelegateManager.m */; };
+		64F2C4D4F8CD6EDEFE629CFD51D5DB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		65D29E6337F3E00B4AA40E420C020E9F /* JTCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD1B3FCF940300682278812AB249E5C /* JTCalendarSettings.m */; };
+		66737F48243D514269C499D65A7B4DBE /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 598B5027C6966A2144129086509F4229 /* FSCalendar.m */; };
+		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDC2600A9C501A7A1F25804490B0C60 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B825307B0FFE80EB445C90B9511CA36 /* JTCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F8445FC041CCDC33292E02C9967E5DA6 /* JTCalendarSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B8663CE1BF0652D1A693685684D812C /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EF584EB4B4C4B5FAA4317FE094091 /* NBPhoneNumberUtil.m */; };
+		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C326971E74680DF5153CADE50554D35 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712FF0C70B4C85F44AFB5CDDC1DD9018 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D65120CC8EBF0B6A7204438D3A4E9D45 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		716E176A167905B1AEFD5C4365639099 /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 713B08498420D6FCA8988BA4E6DC47CF /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76676DF0923C4E4869BEAA1C111BEF28 /* JTCalendarPage.h in Headers */ = {isa = PBXBuildFile; fileRef = D225626A71414650E6CE1031D62BFEA8 /* JTCalendarPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787A4A61B532320C8C3142A01E49913E /* libPhoneNumber-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3823ADA439DC3292B31926F901A49 /* libPhoneNumber-iOS-dummy.m */; };
+		78F6D04BCFD8C2D43D11E09EC4302679 /* JTCalendarWeekDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C65C6D79EA248931D5D2D0EEDF5F05C /* JTCalendarWeekDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0596228C7A7BB0D92559CB00F03683 /* UIFloatLabelTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 525CEE5627499E10047E8C88A5A2FBC7 /* UIFloatLabelTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BB4C45BCD78B1341B851101FC3E31C8 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0936F1CFCF166136C75E3DE6E623D207 /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D677752B713A120C53E066755F8DEFE /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0A5220408D039C2D5613D98298A44 /* NBPhoneNumber.m */; };
+		7E320930D1F4218F307C7FB786F0C514 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D051A1E6C0FE360E9EFD72C3D1AF1E9C /* FSCalendarCollectionView.m */; };
+		85E89B307286C380DDFF180B1F9B5E39 /* UIFloatLabelTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DE6D3AEF4CB7C55EE6A2C94630C592 /* UIFloatLabelTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8632FCFA0471878FC95240290BE97458 /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C361B5FF7E802338572F9459A110ECD2 /* FSCalendar-dummy.m */; };
+		86E23C06F436F8ABADECC8A7CA2C0E05 /* Pods-hynt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68064D2CBDA325CA4D94588FF95BD04E /* Pods-hynt-dummy.m */; };
+		87A10F4D36A9CB67777C466CD259AB08 /* Pods-hyntUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 165F4BF310DCCC92B53FEAB4EFA02B73 /* Pods-hyntUITests-dummy.m */; };
+		8915500754976C30F332884A76C3A7D6 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5923CB40E82037EA5CB26407506E9608 /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C36B5E6A7A185124F987F56AD07E7EE /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6BBEA41F2D6AF0F54CB5426007DC62 /* NBPhoneMetaData.m */; };
+		8E0CB1F8EC8661BBD9C31FB5D31744B7 /* Pods-hyntUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575C6FAE9921D690ADF3C209EA2020D3 /* Pods-hyntUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8E60E0406837DF7038528766C90AEA /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C32A25C0468C2E305EDAD7838245AC /* FSCalendarScopeHandle.m */; };
+		8F7003744526BA3547F59200EE4F4D16 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F077672DFA683DED9D16FE663F9D7C64 /* FSCalendarWeekdayView.m */; };
+		91693C90642539B4F411E794548A9E2A /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B070DC60003AEAACE7D35D8EB236057 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D5ADB6EFD18E1AFE84F65B45D2C55C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8332B8C0BAB827368EC6B870C01AFF81 /* CoreTelephony.framework */; };
+		96E021283F050BCADF9A9B668C77B203 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBC72BF1BD9B4BEC670325ABECED15 /* FSCalendarExtensions.m */; };
+		96F082A9300515C630F999FB7827703A /* JTCalendarDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A7AB5C25F7D1B0CF201788B052AAE7 /* JTCalendarDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97EA76FA3D25BE981550B5FA457C83FF /* JTDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B949224A07D6E8F235F2098BC45143 /* JTDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		988E9C20C2B236BE7E6DF275E015AD41 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 535F93920C845D400CA85F49CFAB45A0 /* NBPhoneNumberDesc.m */; };
+		9917D2807A2BC892287E23B31473FD42 /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCAA8515F302FA06CAEA73CADD386A0 /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9923267D03A048FAE1B5ED85D1C0A10A /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDF7C132BF6334D03263C77499B1156 /* NSArray+NBAdditions.m */; };
+		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F72A1743E979293BE12498443EC25A /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A2B80AE50EC1185034E39EA0B3DDCAC /* JTCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE47635CD07063E54DC6E3FDA71789 /* JTCalendarWeekView.m */; };
+		9B86CE7EEE2BDC7C977647FB9910661B /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C81E596A298C828D283756B0DCA6A1 /* RNCryptor.swift */; };
+		9C06176E7C7CEF175C6D414C2471BBAB /* JTCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0F36D03752AE66EE69F2577B676C76 /* JTCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1F532E45B6AFA52AD301FF8C427621 /* UIFloatLabelTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8726B5C4EC5D68267AF05D8977C3E08 /* UIFloatLabelTextView-dummy.m */; };
+		9CF04404C01848D25E78B22A88BFF129 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE5CFD790472628DA3DB086E41C07B3 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AB7840A6EF0E4DB2EA605E1C014E75 /* DPDKeyboardListener.swift */; };
+		9D0D93DA8BB6979EF78ECF24AFD50733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1808DA3948C77B5F18257239525607E /* UIKit.framework */; };
+		9FE799FF5512C02C097E2D184B61C4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		A000A7A7023F7FB4CEDD1023EB87BF93 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C78F3438D2F1003CBBE56BCD5F483230 /* FSCalendarCollectionViewLayout.m */; };
+		A0B31C86A693F0CE6C51244C5D635D58 /* JTMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2499B234AE46F60DF9AE28CBAEA4DAA3 /* JTMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34F68E88AD06D7C7BD7C3C73321E8C9 /* JTHorizontalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4AA7054BD0185BD2D6C765C18CEA505 /* JTHorizontalCalendarView.m */; };
+		A3A9D8DE6532F61A7DBC127B18B51F21 /* RNCryptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCA5681FA98EC0915174E51CC7C5024 /* RNCryptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D1147CED9648BEDE2E47B8E8A44924 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = F3424B9A446774EC77631DC5B73C518A /* FSCalendar+Deprecated.m */; };
+		A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9142DD36364374EF9E2BEB7AAFA25 /* DPDUIView+Extension.swift */; };
+		A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8588CC18BD657FF72697032C10B0B0E5 /* DPDConstants.swift */; };
+		AA978FCF3EF1D8D10DDE3BB4C6312A7B /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CABE737A95180F2B760CDEA28DBFA18 /* FSCalendarDelegationProxy.m */; };
+		AB0A7E26E5DF1D0B6D0A89A603CD1ED7 /* JTHorizontalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2476BAD5E7475F336AF5CC452B4C6D50 /* JTHorizontalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286A29FCE91FDB860312116D0FE16C70 /* DropDown-dummy.m */; };
+		AE8BEAAEB6E95701E20D24E597430362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		B314AF5162665C79E15AD40098948D96 /* JTCalendarWeekDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6448BB2926540C0509ECD138C27BE5 /* JTCalendarWeekDayView.m */; };
+		B3916040717DB6828E733D3DF2E0A644 /* JTCalendarPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DAA53323D0F675B1185D59D2057567 /* JTCalendarPageView.m */; };
+		B448162A81E9F18E567A4B0342ED1319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1808DA3948C77B5F18257239525607E /* UIKit.framework */; };
+		B5BAE9F7C7089DD2D7F14DE010B5B7F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		BA807B9CBE4B8A1DC8E834F5F2FE5249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		BAF5E32AA7150F9D98C37DB557D19181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		BC807C5785F52F2415B924D6891C2FE4 /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC25F91F8A22E77C3015149662B142 /* NBAsYouTypeFormatter.m */; };
+		BD95FC7B6118484BA01780C350C090DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B43555F423C224C873F21BA0C779966 /* Foundation.framework */; };
+		BDA1ED05CBA5580B30785A431D5B231B /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5B0FE03F47E8CF387AE693FCF3C354 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD75AA9E3880BD461D3064EF4E19DB8 /* JTVerticalCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F79BA157903216ECFEE6C4C45B725B8D /* JTVerticalCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFE8F45F896D7E46E916BE3CF325F527 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC69D1EBE4773EAADCD9B8FD41F40E /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17D68C964954EF1C0BB3C314C2F452F /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E944CBC80DA2DE20ED4E38E97B68E74 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C69663957B2EB4C7CF4D8192480AA8B4 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 864F28481E9ECC4652287CB07D63F3B7 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB49B851E1D22A9F04A5408C21ED4137 /* JTVerticalCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C826302EDB53EC94F63099BD42767 /* JTVerticalCalendarView.m */; };
+		CD2948F9AA2FBA57A340C3722749E534 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE65F1673972D0582EC882A6FE571F4 /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB052C277F6148BBAACB2C2C7C6321B /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EE5E186644E57B036D997C1402FBD /* FSCalendarTransitionCoordinator.m */; };
+		CEA18A75ABDCB1E0332CF30A350D8823 /* libPhoneNumber-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA636D9AD0388E270F1A08F86C9B55F /* libPhoneNumber-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AE1C1C29836A4C9BE54E8CDFB948C0 /* JTContent.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CA1C4287A5235D1DC921A9DDACEAF2 /* JTContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F3BEEB43698475E5443150838E84ED /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 693A0BA27C91412D2D6EB778C1E89F66 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D912A8C27B10CB8AFE27F5D033ABA820 /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEA7F4D2DA97A4B6153541163892564 /* RNCryptor-dummy.m */; };
+		D928434EC65FCBA51602E08EED29AC12 /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 01858B1B2221095A2CE572F46A457B4B /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD46ED3E8210670622678094C2CE52BC /* JTCalendarMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 049660A7FCD5B06936609F9BA194512E /* JTCalendarMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1838A533D456F91341DAC7A4AF2A536 /* JTCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB58B4D72E7F65DF0C143E1F902AAC /* JTCalendar-dummy.m */; };
+		E1B077BAFD8840CA3D96BB4545B7B255 /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = EF71C2582348E91298A7B728E2A7F43B /* FSCalendarScopeHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B93CDF418A2678614DDAD9331C0C0D /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B404F8D22395C7137565B4DDE8B03CB /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE078A13105301767BE0ECAC1705A9B5 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE5F44F3529C4E306BF1BF641D0F467 /* FSCalendarStickyHeader.m */; };
+		EF79B42952D4B407242484D9CC034392 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AD86396F2CF926382633E14AC08C0 /* QuartzCore.framework */; };
+		F359A17C6620C1648BB8B72A97146F42 /* JTCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECED62152439A03D05FAA98ED448AFD /* JTCalendarManager.m */; };
+		F49C48CE2C00DA8FAB63DB9D7FD9C6BC /* JTCalendarScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 159937E13396C623039ACABD05592192 /* JTCalendarScrollManager.m */; };
+		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B525C8DBE107D8CB1EAA5EC831486 /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F54E2CAED6EAE74D9E1F878E10FA30BD /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F6408C45AE39BFDF8FF71B1DBB7C5C /* FSCalendarDelegationFactory.m */; };
+		F6A1EC699E916996EF2B7B4C6137DB8D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE7547865E50D7FFCAF3467C726BC12 /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F746795DC38AD2DB3D584A110174FED0 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 62948EC29975216E68E6B2C324FE2945 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75DFB5A6E8642C4964CC3968A2DD0C8 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4256408F04A11D2176A0ADE3B63439A8 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B3E426FC8E123C9033875779919DDB /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB7B7935E8D49CEECA76351C2E627A1A /* JTCalendarDayView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA54748A7198C9A11B3AE0067A94BF32 /* JTCalendarDayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF2C0A097403FF47FB7EE71B85E5F22 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0148018892A454CD8D25BF209B8DA633 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD051B5A9F3E663081656EB261A724D2 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 140EAD9CD881BE72965105CC2B93F046 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFBEAF63A28F6A7DD881E8256F9503B7 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 814BCBD70EF8AE8F154A96E040041692 /* FSCalendarCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07E85756C22792CE6A76EF7434E50030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5168099F2EBFC99A707C03C9EADE01A5;
+			remoteInfo = DropDown;
+		};
+		0A8901B8C7046432BDFF096C86208DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168F0C9A0D5F836428454E5CAAB17290;
+			remoteInfo = RNCryptor;
+		};
+		14429CF6E87E9FA1192D9E487AE63D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A2DB7A84B7B78E359870D2E1B24AA7;
+			remoteInfo = FSCalendar;
+		};
+		7F97A6367A06C8A62C2C707DA2431A0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8CD354013E2AD7784DAAECDE522CDD;
+			remoteInfo = UIFloatLabelTextView;
+		};
+		9B42F42286EE19D5464378B1D472707F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D0AFD51BF2D04784321D0DCD086326;
+			remoteInfo = JTCalendar;
+		};
+		BDF0C1EC9B35F0514D0AE69866ED43C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
+			remoteInfo = JVFloatLabeledTextField;
+		};
+		E6D9E6FDB732B1062C68E800EFBA2BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4104A3BA54DA673490171218E4B06F;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002CAD91125F31D84B2D3C64D0FDB1E4 /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		00C0134266C66E76FA9533BACC96FA78 /* Pods-hyntTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hyntTests-resources.sh"; sourceTree = "<group>"; };
+		0148018892A454CD8D25BF209B8DA633 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = Sources/Cryptor/include/RNCryptor.h; sourceTree = "<group>"; };
+		01858B1B2221095A2CE572F46A457B4B /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		049660A7FCD5B06936609F9BA194512E /* JTCalendarMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarMenuView.h; path = JTCalendar/Views/JTCalendarMenuView.h; sourceTree = "<group>"; };
+		06A7AB5C25F7D1B0CF201788B052AAE7 /* JTCalendarDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDay.h; path = JTCalendar/Protocols/JTCalendarDay.h; sourceTree = "<group>"; };
+		0936F1CFCF166136C75E3DE6E623D207 /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		0B397084175DB598CC2D9BC0263BC363 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B404F8D22395C7137565B4DDE8B03CB /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		0BE5F44F3529C4E306BF1BF641D0F467 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		0BE995746F503AEC393F49E214E29771 /* libPhoneNumber-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-prefix.pch"; sourceTree = "<group>"; };
+		0C6448BB2926540C0509ECD138C27BE5 /* JTCalendarWeekDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekDayView.m; path = JTCalendar/Views/JTCalendarWeekDayView.m; sourceTree = "<group>"; };
+		0C65C6D79EA248931D5D2D0EEDF5F05C /* JTCalendarWeekDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDayView.h; path = JTCalendar/Views/JTCalendarWeekDayView.h; sourceTree = "<group>"; };
+		0C88B54A85486CF747E50226A40D0FAD /* Pods-hynt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hynt.release.xcconfig"; sourceTree = "<group>"; };
+		0D001B0525429A21C927F2E2D073F7A2 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		0DF068E7FE98DDD72899E91CB6D0E3E1 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		0E2EA639E153060B42664C53CA2C2AD2 /* Pods-hyntUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hyntUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E944CBC80DA2DE20ED4E38E97B68E74 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		0FCA5681FA98EC0915174E51CC7C5024 /* RNCryptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-umbrella.h"; sourceTree = "<group>"; };
+		0FEB05A7C3F5DD8EF6A78B790379D9A4 /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
+		140EAD9CD881BE72965105CC2B93F046 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		14AE47635CD07063E54DC6E3FDA71789 /* JTCalendarWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarWeekView.m; path = JTCalendar/Views/JTCalendarWeekView.m; sourceTree = "<group>"; };
+		159937E13396C623039ACABD05592192 /* JTCalendarScrollManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarScrollManager.m; path = JTCalendar/Managers/JTCalendarScrollManager.m; sourceTree = "<group>"; };
+		15C7D1CF500D57A0D84B6E62D36CD531 /* libPhoneNumber-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libPhoneNumber-iOS.xcconfig"; sourceTree = "<group>"; };
+		165F4BF310DCCC92B53FEAB4EFA02B73 /* Pods-hyntUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hyntUITests-dummy.m"; sourceTree = "<group>"; };
+		189A4DF50249965B56B83B748E02BE23 /* Pods-hyntUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hyntUITests.modulemap"; sourceTree = "<group>"; };
+		19770477873ED7246E6ABD606EF4DDB7 /* Pods-hynt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hynt-resources.sh"; sourceTree = "<group>"; };
+		1C5B0FE03F47E8CF387AE693FCF3C354 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		1CA636D9AD0388E270F1A08F86C9B55F /* libPhoneNumber-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-umbrella.h"; sourceTree = "<group>"; };
+		1CABE737A95180F2B760CDEA28DBFA18 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		1CEA7F4D2DA97A4B6153541163892564 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		1D0F36D03752AE66EE69F2577B676C76 /* JTCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarManager.h; path = JTCalendar/JTCalendarManager.h; sourceTree = "<group>"; };
+		1DD4853A2F218C05CD465088AC31F311 /* Pods-hyntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hyntTests.debug.xcconfig"; sourceTree = "<group>"; };
+		215380F8B62436F73495BE2718B44FB4 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		2388168838742911828CC64B8CE5D077 /* JTCalendarPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPageView.h; path = JTCalendar/Views/JTCalendarPageView.h; sourceTree = "<group>"; };
+		2476BAD5E7475F336AF5CC452B4C6D50 /* JTHorizontalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTHorizontalCalendarView.h; path = JTCalendar/Views/JTHorizontalCalendarView.h; sourceTree = "<group>"; };
+		2499B234AE46F60DF9AE28CBAEA4DAA3 /* JTMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTMenu.h; path = JTCalendar/Protocols/JTMenu.h; sourceTree = "<group>"; };
+		25A3823ADA439DC3292B31926F901A49 /* libPhoneNumber-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libPhoneNumber-iOS-dummy.m"; sourceTree = "<group>"; };
+		2808577A0885F34A91F3ADEBC003E0C0 /* Pods-hyntTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hyntTests.modulemap"; sourceTree = "<group>"; };
+		286A29FCE91FDB860312116D0FE16C70 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		28954D3C80C4083DE01323C5815708BE /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		2C590891A74E6222ACF1730342C0D276 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		2D410879845787BF9E0A43E8C2BB9E96 /* Pods-hyntUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hyntUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E349600967CC52A343C744C344FCDFA /* JTCalendarDelegateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDelegateManager.m; path = JTCalendar/Managers/JTCalendarDelegateManager.m; sourceTree = "<group>"; };
+		2FDC2600A9C501A7A1F25804490B0C60 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		31A0C77EA9429901A91F5E221708C853 /* Pods-hyntTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hyntTests-umbrella.h"; sourceTree = "<group>"; };
+		33DE6D3AEF4CB7C55EE6A2C94630C592 /* UIFloatLabelTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFloatLabelTextView-umbrella.h"; sourceTree = "<group>"; };
+		351E6CB7670871544D9C76DF6E0180CF /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		35BC89F9FD2B1DC48FBA0B78EADF1CB6 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		3912C0D403DC98EF7B3A03EA8AC7B8CD /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		39F6408C45AE39BFDF8FF71B1DBB7C5C /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		3C4B525C8DBE107D8CB1EAA5EC831486 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		404B8670DB11671AF415A8E3E736AEEC /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		41D060676465AE044A47DAD2CB507879 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		4256408F04A11D2176A0ADE3B63439A8 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		4318B58E6244AAB217CBF6DD1A632C8F /* JTCalendarWeekDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekDay.h; path = JTCalendar/Protocols/JTCalendarWeekDay.h; sourceTree = "<group>"; };
+		45CC425A48674DEA22ABBA6173B7EC39 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		469040AE3669F96A0283E8426F9EB0C9 /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		472AE7216C16FF7145B29C08D12FA4AF /* JTCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendar.h; path = JTCalendar/JTCalendar.h; sourceTree = "<group>"; };
+		47D1C8AED28023AD47DA1E12C086CC19 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		48F72A1743E979293BE12498443EC25A /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		4B43555F423C224C873F21BA0C779966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BE7547865E50D7FFCAF3467C726BC12 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		4C326971E74680DF5153CADE50554D35 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		4C76CBCE73AE33E64D8B2F3247461518 /* Pods-hynt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hynt-frameworks.sh"; sourceTree = "<group>"; };
+		4FEC25F91F8A22E77C3015149662B142 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		525CEE5627499E10047E8C88A5A2FBC7 /* UIFloatLabelTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIFloatLabelTextView.h; path = UIFloatLabelTextView/UIFloatLabelTextView.h; sourceTree = "<group>"; };
+		5296B9C70EE3B88A46A65BB4C2478EDA /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		52C32A25C0468C2E305EDAD7838245AC /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = FSCalendar/FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		535F93920C845D400CA85F49CFAB45A0 /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		54F83AA2EEDB047702D98542BCF8395D /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		554FC85614B0C57766F3875926CE1167 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B3E426FC8E123C9033875779919DDB /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		575C6FAE9921D690ADF3C209EA2020D3 /* Pods-hyntUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hyntUITests-umbrella.h"; sourceTree = "<group>"; };
+		57EB58B4D72E7F65DF0C143E1F902AAC /* JTCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTCalendar-dummy.m"; sourceTree = "<group>"; };
+		58CBDF5C906ED6962881B796AFF967B9 /* Pods-hynt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hynt-umbrella.h"; sourceTree = "<group>"; };
+		5923CB40E82037EA5CB26407506E9608 /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
+		598B5027C6966A2144129086509F4229 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		59AB7840A6EF0E4DB2EA605E1C014E75 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		5B6BBEA41F2D6AF0F54CB5426007DC62 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		5BDF7C132BF6334D03263C77499B1156 /* NSArray+NBAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NBAdditions.m"; path = "libPhoneNumber/NSArray+NBAdditions.m"; sourceTree = "<group>"; };
+		5D68170357C5EE33F21F80D1AB16B9F1 /* JTCalendarWeek.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeek.h; path = JTCalendar/Protocols/JTCalendarWeek.h; sourceTree = "<group>"; };
+		62948EC29975216E68E6B2C324FE2945 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		636EF584EB4B4C4B5FAA4317FE094091 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		638C479274904A9316D0E62245A3A23D /* JTCalendarDayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarDayView.m; path = JTCalendar/Views/JTCalendarDayView.m; sourceTree = "<group>"; };
+		64BD369BA37FE843FAD50FF779506587 /* UIFloatLabelTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIFloatLabelTextView.framework; path = UIFloatLabelTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D18375E0B1FE3204DC76BE5CB20D69 /* JTCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JTCalendar.modulemap; sourceTree = "<group>"; };
+		68064D2CBDA325CA4D94588FF95BD04E /* Pods-hynt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hynt-dummy.m"; sourceTree = "<group>"; };
+		68FF552F1AB2C8DCE384C1AD94F918ED /* JTCalendarMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarMenuView.m; path = JTCalendar/Views/JTCalendarMenuView.m; sourceTree = "<group>"; };
+		691EE5E186644E57B036D997C1402FBD /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		693A0BA27C91412D2D6EB778C1E89F66 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		6A268A0F7DDA35FD23F5C5A3D8FF47A6 /* Pods-hynt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hynt-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B070DC60003AEAACE7D35D8EB236057 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		6B858C8FA52DBC29AC4DA75B8509B18F /* JTCalendarDelegateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegateManager.h; path = JTCalendar/Managers/JTCalendarDelegateManager.h; sourceTree = "<group>"; };
+		6DE2FBC7BE70B4D1ACA852C76EDCB517 /* Pods-hynt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hynt.modulemap"; sourceTree = "<group>"; };
+		6ECED62152439A03D05FAA98ED448AFD /* JTCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarManager.m; path = JTCalendar/JTCalendarManager.m; sourceTree = "<group>"; };
+		6F9C2E1BE7F9E6A0C0BCCA65E30B5019 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713B08498420D6FCA8988BA4E6DC47CF /* NBGeneratedPhoneNumberMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBGeneratedPhoneNumberMetaData.h; path = libPhoneNumber/NBGeneratedPhoneNumberMetaData.h; sourceTree = "<group>"; };
+		74A2855B46D49DCA200D4FC139DDB1ED /* Pods_hyntTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hyntTests.framework; path = "Pods-hyntTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791EF24CC3E16868944CF3A626C0634A /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7994E22E29A6BC97351C4B99CF868E80 /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F0A5220408D039C2D5613D98298A44 /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		7AD30E790BA5418083F0FC5E87E0922B /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		7E2C6452ED9689F1C282B54B99218648 /* libPhoneNumber-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "libPhoneNumber-iOS.modulemap"; sourceTree = "<group>"; };
+		7F63F04C163748022EAB5E58DA0ECCE7 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		814BCBD70EF8AE8F154A96E040041692 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		82EA4F275C7C8EC713ED23D6D7F9B0C8 /* JTCalendarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDelegate.h; path = JTCalendar/JTCalendarDelegate.h; sourceTree = "<group>"; };
+		8332B8C0BAB827368EC6B870C01AFF81 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		83718CE0044A5F38F279475A3102A428 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C81E596A298C828D283756B0DCA6A1 /* RNCryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RNCryptor.swift; path = Sources/RNCryptor/RNCryptor.swift; sourceTree = "<group>"; };
+		84BBC72BF1BD9B4BEC670325ABECED15 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		8588CC18BD657FF72697032C10B0B0E5 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		864F28481E9ECC4652287CB07D63F3B7 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		871B7E319BF6DE079B2665436A433253 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E30D3330BC4DB53F23FF6FCACDFF8E /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		88BFCABF2967CAF2629004B02ABA8944 /* Pods-hyntTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hyntTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B93BD6EF90A4C8503865BA5A261D97E /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		8C7032E64AFB97F7C1E776EDB8959FD7 /* Pods-hyntTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hyntTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CDCEFC69DBE0AADD4061F974AE6009D /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		910C7FFBE7A1F297C737ADEE1B425D20 /* Pods-hyntUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hyntUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9289253D745C56BA48C8E2DB3C44F8F5 /* JTCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTCalendar-prefix.pch"; sourceTree = "<group>"; };
+		92DAA53323D0F675B1185D59D2057567 /* JTCalendarPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarPageView.m; path = JTCalendar/Views/JTCalendarPageView.m; sourceTree = "<group>"; };
+		93A0CAD247BDC736FCFFE9B9853D1A59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A9142DD36364374EF9E2BEB7AAFA25 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		96D74BDBF6F6E9766F655B4925229370 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		97E86EB353AD932624A2A14CE7C8B455 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		9872E3696EF4C86EF27692FD762CF5BA /* JTCalendarWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarWeekView.h; path = JTCalendar/Views/JTCalendarWeekView.h; sourceTree = "<group>"; };
+		99B949224A07D6E8F235F2098BC45143 /* JTDateHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTDateHelper.h; path = JTCalendar/JTDateHelper.h; sourceTree = "<group>"; };
+		9A9DB6611D70E58B70BAEF75A91B6836 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBC69D1EBE4773EAADCD9B8FD41F40E /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		9CCAA8515F302FA06CAEA73CADD386A0 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		9CDBC8CF81A01BA8BCE7E984875C5CA7 /* JTCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTCalendar.xcconfig; sourceTree = "<group>"; };
+		9DC33BA82C34D09B465720514C8D1021 /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		9E041527E83708487DEAEB0810C53EDD /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		A2A52128EAA55198C429FC70BDE937D4 /* Pods-hynt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hynt.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CA1C4287A5235D1DC921A9DDACEAF2 /* JTContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTContent.h; path = JTCalendar/Protocols/JTContent.h; sourceTree = "<group>"; };
+		AC71046C6CC2B222304A3B520814858D /* UIFloatLabelTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIFloatLabelTextView.xcconfig; sourceTree = "<group>"; };
+		ACD1B3FCF940300682278812AB249E5C /* JTCalendarSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTCalendarSettings.m; path = JTCalendar/JTCalendarSettings.m; sourceTree = "<group>"; };
+		AD6F2452A583CF1271EBCA0A3BCFDED2 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		AE9C826302EDB53EC94F63099BD42767 /* JTVerticalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTVerticalCalendarView.m; path = JTCalendar/Views/JTVerticalCalendarView.m; sourceTree = "<group>"; };
+		B255EC58F06866CC48524B16AC415461 /* Pods-hyntTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hyntTests-dummy.m"; sourceTree = "<group>"; };
+		B33AD86396F2CF926382633E14AC08C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BCB119409D64950556659135BEB5289C /* RNCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNCryptor.framework; path = RNCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F4D4ABA9ED1F720137E44A5C7B4E47 /* Pods_hyntUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hyntUITests.framework; path = "Pods-hyntUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C361B5FF7E802338572F9459A110ECD2 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		C4AA7054BD0185BD2D6C765C18CEA505 /* JTHorizontalCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTHorizontalCalendarView.m; path = JTCalendar/Views/JTHorizontalCalendarView.m; sourceTree = "<group>"; };
+		C78F3438D2F1003CBBE56BCD5F483230 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		C98C885F47F400AC456CB2A7F13AD170 /* Pods-hynt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hynt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBEE3DD36D2B369F7D6766E06827D810 /* RNCryptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNCryptor.modulemap; sourceTree = "<group>"; };
+		CC4793B11F6511A1C188BB794FF685F6 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
+		CFC83F4C2316538D3E10D8EB700029CA /* Pods-hyntTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hyntTests-frameworks.sh"; sourceTree = "<group>"; };
+		D051A1E6C0FE360E9EFD72C3D1AF1E9C /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		D0D9080E1AF73A548A21DA9EAD1BF4D6 /* Pods-hyntUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hyntUITests-resources.sh"; sourceTree = "<group>"; };
+		D1808DA3948C77B5F18257239525607E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D19936FFCCD060D910384BF270A3CA65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D225626A71414650E6CE1031D62BFEA8 /* JTCalendarPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarPage.h; path = JTCalendar/Protocols/JTCalendarPage.h; sourceTree = "<group>"; };
+		D2E1E1775B4BCA28D3B57E5C7F0215FE /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		D3AA16188602A2A436F5D4059DBA19FB /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		D41898FB76939F19C5EF7D0E5AF48C86 /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libPhoneNumber_iOS.framework; path = "libPhoneNumber-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4F4E587AD1F0C8492062182D513449B /* UIFloatLabelTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIFloatLabelTextView.m; path = UIFloatLabelTextView/UIFloatLabelTextView.m; sourceTree = "<group>"; };
+		D65120CC8EBF0B6A7204438D3A4E9D45 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		D77496CAF83A1D9DCB3D05DFE43FC967 /* Pods-hyntTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hyntTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8F6D486A8614BCF226436C2EBD70EF1 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		DA54748A7198C9A11B3AE0067A94BF32 /* JTCalendarDayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarDayView.h; path = JTCalendar/Views/JTCalendarDayView.h; sourceTree = "<group>"; };
+		DBE65F1673972D0582EC882A6FE571F4 /* NSArray+NBAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+NBAdditions.h"; path = "libPhoneNumber/NSArray+NBAdditions.h"; sourceTree = "<group>"; };
+		DDF18D943B704ACD0F9D6187E5CF1C9E /* JTDateHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTDateHelper.m; path = JTCalendar/JTDateHelper.m; sourceTree = "<group>"; };
+		DFB7AA9EFBD1D2DD0AC2D4E33C2977E2 /* JTCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DFCC1C07B7467AC271E8BB989AF9488C /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		E1C3C62C4CEBF6323905651882A5874D /* Pods-hyntUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hyntUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C41059046FE26C342BB094FD5BCBA6 /* UIFloatLabelTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIFloatLabelTextView.modulemap; sourceTree = "<group>"; };
+		E3B816BF763B498C70345364300B17C7 /* JTCalendarScrollManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarScrollManager.h; path = JTCalendar/Managers/JTCalendarScrollManager.h; sourceTree = "<group>"; };
+		E4C07C50749C9E39C076FD8D4120BA10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E85F8E2F6C0B85FFF88AF5472D1EC874 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8726B5C4EC5D68267AF05D8977C3E08 /* UIFloatLabelTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFloatLabelTextView-dummy.m"; sourceTree = "<group>"; };
+		EA4F86FF0F3F76BF4DA4141A7CEEFB3B /* UIFloatLabelTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFloatLabelTextView-prefix.pch"; sourceTree = "<group>"; };
+		EDE5CFD790472628DA3DB086E41C07B3 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		EF71C2582348E91298A7B728E2A7F43B /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = FSCalendar/FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		F077672DFA683DED9D16FE663F9D7C64 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		F3424B9A446774EC77631DC5B73C518A /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		F3EC339DDD1ED35AA37F0BA979C94199 /* JTCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JTCalendar.framework; path = JTCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79BA157903216ECFEE6C4C45B725B8D /* JTVerticalCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTVerticalCalendarView.h; path = JTCalendar/Views/JTVerticalCalendarView.h; sourceTree = "<group>"; };
+		F8445FC041CCDC33292E02C9967E5DA6 /* JTCalendarSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTCalendarSettings.h; path = JTCalendar/JTCalendarSettings.h; sourceTree = "<group>"; };
+		FB383CC209B07B8ADFE01F196AB6146D /* Pods-hyntUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hyntUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FC2123F90EC4F65D0633281B2C2B07C3 /* Pods_hynt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hynt.framework; path = "Pods-hynt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3D8A8831E745BCDE5456DDD05FB1EB /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		FFDE2BCCF00301475D23E53419C628C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109D1715E0C92E8726838F4E1EB21972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA807B9CBE4B8A1DC8E834F5F2FE5249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C02EDB1CCEE08F62A34C0381D2E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D5ADB6EFD18E1AFE84F65B45D2C55C /* CoreTelephony.framework in Frameworks */,
+				BAF5E32AA7150F9D98C37DB557D19181 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0C121755DBF940DA569A041E683C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE799FF5512C02C097E2D184B61C4BE /* Foundation.framework in Frameworks */,
+				EF79B42952D4B407242484D9CC034392 /* QuartzCore.framework in Frameworks */,
+				9D0D93DA8BB6979EF78ECF24AFD50733 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B999999600C040423AA2BC41F1612A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BAE9F7C7089DD2D7F14DE010B5B7F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9CD6F441E6B30601549781F5DB2D12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE21423C96A6E189FBAB4EA6223EE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F2C4D4F8CD6EDEFE629CFD51D5DB12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD95FC7B6118484BA01780C350C090DD /* Foundation.framework in Frameworks */,
+				B448162A81E9F18E567A4B0342ED1319 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762D577E954F4BEDD2A163626E950129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80DB342510E9E9321FBE270FFE1A75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1D56CE4EE7FA5AD25D95C4188EC516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243C1CAC78B826C75ADBB74D18DE0C92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11AA3E1EF2D9136946E3E0E8E62CA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8BEAAEB6E95701E20D24E597430362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EA07BB1F85BDE1F9C3A10F24DA9A0E /* JTCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				472AE7216C16FF7145B29C08D12FA4AF /* JTCalendar.h */,
+				06A7AB5C25F7D1B0CF201788B052AAE7 /* JTCalendarDay.h */,
+				DA54748A7198C9A11B3AE0067A94BF32 /* JTCalendarDayView.h */,
+				638C479274904A9316D0E62245A3A23D /* JTCalendarDayView.m */,
+				82EA4F275C7C8EC713ED23D6D7F9B0C8 /* JTCalendarDelegate.h */,
+				6B858C8FA52DBC29AC4DA75B8509B18F /* JTCalendarDelegateManager.h */,
+				2E349600967CC52A343C744C344FCDFA /* JTCalendarDelegateManager.m */,
+				1D0F36D03752AE66EE69F2577B676C76 /* JTCalendarManager.h */,
+				6ECED62152439A03D05FAA98ED448AFD /* JTCalendarManager.m */,
+				049660A7FCD5B06936609F9BA194512E /* JTCalendarMenuView.h */,
+				68FF552F1AB2C8DCE384C1AD94F918ED /* JTCalendarMenuView.m */,
+				D225626A71414650E6CE1031D62BFEA8 /* JTCalendarPage.h */,
+				2388168838742911828CC64B8CE5D077 /* JTCalendarPageView.h */,
+				92DAA53323D0F675B1185D59D2057567 /* JTCalendarPageView.m */,
+				E3B816BF763B498C70345364300B17C7 /* JTCalendarScrollManager.h */,
+				159937E13396C623039ACABD05592192 /* JTCalendarScrollManager.m */,
+				F8445FC041CCDC33292E02C9967E5DA6 /* JTCalendarSettings.h */,
+				ACD1B3FCF940300682278812AB249E5C /* JTCalendarSettings.m */,
+				5D68170357C5EE33F21F80D1AB16B9F1 /* JTCalendarWeek.h */,
+				4318B58E6244AAB217CBF6DD1A632C8F /* JTCalendarWeekDay.h */,
+				0C65C6D79EA248931D5D2D0EEDF5F05C /* JTCalendarWeekDayView.h */,
+				0C6448BB2926540C0509ECD138C27BE5 /* JTCalendarWeekDayView.m */,
+				9872E3696EF4C86EF27692FD762CF5BA /* JTCalendarWeekView.h */,
+				14AE47635CD07063E54DC6E3FDA71789 /* JTCalendarWeekView.m */,
+				A2CA1C4287A5235D1DC921A9DDACEAF2 /* JTContent.h */,
+				99B949224A07D6E8F235F2098BC45143 /* JTDateHelper.h */,
+				DDF18D943B704ACD0F9D6187E5CF1C9E /* JTDateHelper.m */,
+				2476BAD5E7475F336AF5CC452B4C6D50 /* JTHorizontalCalendarView.h */,
+				C4AA7054BD0185BD2D6C765C18CEA505 /* JTHorizontalCalendarView.m */,
+				2499B234AE46F60DF9AE28CBAEA4DAA3 /* JTMenu.h */,
+				F79BA157903216ECFEE6C4C45B725B8D /* JTVerticalCalendarView.h */,
+				AE9C826302EDB53EC94F63099BD42767 /* JTVerticalCalendarView.m */,
+				5FF182FEF4BD206B0BA8BEA864A7C3EB /* Support Files */,
+			);
+			name = JTCalendar;
+			path = JTCalendar;
+			sourceTree = "<group>";
+		};
+		0B5F933A739C4D223C4646AD261ACF88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D19936FFCCD060D910384BF270A3CA65 /* Info.plist */,
+				7E2C6452ED9689F1C282B54B99218648 /* libPhoneNumber-iOS.modulemap */,
+				15C7D1CF500D57A0D84B6E62D36CD531 /* libPhoneNumber-iOS.xcconfig */,
+				25A3823ADA439DC3292B31926F901A49 /* libPhoneNumber-iOS-dummy.m */,
+				0BE995746F503AEC393F49E214E29771 /* libPhoneNumber-iOS-prefix.pch */,
+				1CA636D9AD0388E270F1A08F86C9B55F /* libPhoneNumber-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FFCA57B8AF6838AE871A4E61C31BAF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AA65F48BF2D2798D386A40EF6D7B764 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D37416AABEB1FF48147600CFB223A /* Pods-hynt */,
+				D92524BCD4A78508FBA18990FE9C15A8 /* Pods-hyntTests */,
+				292AB96B0D3EFDA27900821422DAF744 /* Pods-hyntUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		292AB96B0D3EFDA27900821422DAF744 /* Pods-hyntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE2BCCF00301475D23E53419C628C1 /* Info.plist */,
+				189A4DF50249965B56B83B748E02BE23 /* Pods-hyntUITests.modulemap */,
+				0E2EA639E153060B42664C53CA2C2AD2 /* Pods-hyntUITests-acknowledgements.markdown */,
+				2D410879845787BF9E0A43E8C2BB9E96 /* Pods-hyntUITests-acknowledgements.plist */,
+				165F4BF310DCCC92B53FEAB4EFA02B73 /* Pods-hyntUITests-dummy.m */,
+				FB383CC209B07B8ADFE01F196AB6146D /* Pods-hyntUITests-frameworks.sh */,
+				D0D9080E1AF73A548A21DA9EAD1BF4D6 /* Pods-hyntUITests-resources.sh */,
+				575C6FAE9921D690ADF3C209EA2020D3 /* Pods-hyntUITests-umbrella.h */,
+				E1C3C62C4CEBF6323905651882A5874D /* Pods-hyntUITests.debug.xcconfig */,
+				910C7FFBE7A1F297C737ADEE1B425D20 /* Pods-hyntUITests.release.xcconfig */,
+			);
+			name = "Pods-hyntUITests";
+			path = "Target Support Files/Pods-hyntUITests";
+			sourceTree = "<group>";
+		};
+		2B2D37416AABEB1FF48147600CFB223A /* Pods-hynt */ = {
+			isa = PBXGroup;
+			children = (
+				83718CE0044A5F38F279475A3102A428 /* Info.plist */,
+				6DE2FBC7BE70B4D1ACA852C76EDCB517 /* Pods-hynt.modulemap */,
+				C98C885F47F400AC456CB2A7F13AD170 /* Pods-hynt-acknowledgements.markdown */,
+				6A268A0F7DDA35FD23F5C5A3D8FF47A6 /* Pods-hynt-acknowledgements.plist */,
+				68064D2CBDA325CA4D94588FF95BD04E /* Pods-hynt-dummy.m */,
+				4C76CBCE73AE33E64D8B2F3247461518 /* Pods-hynt-frameworks.sh */,
+				19770477873ED7246E6ABD606EF4DDB7 /* Pods-hynt-resources.sh */,
+				58CBDF5C906ED6962881B796AFF967B9 /* Pods-hynt-umbrella.h */,
+				A2A52128EAA55198C429FC70BDE937D4 /* Pods-hynt.debug.xcconfig */,
+				0C88B54A85486CF747E50226A40D0FAD /* Pods-hynt.release.xcconfig */,
+			);
+			name = "Pods-hynt";
+			path = "Target Support Files/Pods-hynt";
+			sourceTree = "<group>";
+		};
+		325A27FFBF564A883B3776FF0940151C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD30E790BA5418083F0FC5E87E0922B /* FSCalendar.modulemap */,
+				FF3D8A8831E745BCDE5456DDD05FB1EB /* FSCalendar.xcconfig */,
+				C361B5FF7E802338572F9459A110ECD2 /* FSCalendar-dummy.m */,
+				2C590891A74E6222ACF1730342C0D276 /* FSCalendar-prefix.pch */,
+				D2E1E1775B4BCA28D3B57E5C7F0215FE /* FSCalendar-umbrella.h */,
+				93A0CAD247BDC736FCFFE9B9853D1A59 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		359F03A7DA6DA334C223780E1F5987D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B93BD6EF90A4C8503865BA5A261D97E /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3AF9D1EEB9F0A4633DEBEA18F1F4CA5C /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				EDE5CFD790472628DA3DB086E41C07B3 /* FSCalendar.h */,
+				598B5027C6966A2144129086509F4229 /* FSCalendar.m */,
+				F3424B9A446774EC77631DC5B73C518A /* FSCalendar+Deprecated.m */,
+				140EAD9CD881BE72965105CC2B93F046 /* FSCalendarAppearance.h */,
+				96D74BDBF6F6E9766F655B4925229370 /* FSCalendarAppearance.m */,
+				62948EC29975216E68E6B2C324FE2945 /* FSCalendarCalculator.h */,
+				814BCBD70EF8AE8F154A96E040041692 /* FSCalendarCalculator.m */,
+				4256408F04A11D2176A0ADE3B63439A8 /* FSCalendarCell.h */,
+				3912C0D403DC98EF7B3A03EA8AC7B8CD /* FSCalendarCell.m */,
+				0B404F8D22395C7137565B4DDE8B03CB /* FSCalendarCollectionView.h */,
+				D051A1E6C0FE360E9EFD72C3D1AF1E9C /* FSCalendarCollectionView.m */,
+				6B070DC60003AEAACE7D35D8EB236057 /* FSCalendarCollectionViewLayout.h */,
+				C78F3438D2F1003CBBE56BCD5F483230 /* FSCalendarCollectionViewLayout.m */,
+				D8F6D486A8614BCF226436C2EBD70EF1 /* FSCalendarConstants.h */,
+				28954D3C80C4083DE01323C5815708BE /* FSCalendarConstants.m */,
+				215380F8B62436F73495BE2718B44FB4 /* FSCalendarDelegationFactory.h */,
+				39F6408C45AE39BFDF8FF71B1DBB7C5C /* FSCalendarDelegationFactory.m */,
+				DFCC1C07B7467AC271E8BB989AF9488C /* FSCalendarDelegationProxy.h */,
+				1CABE737A95180F2B760CDEA28DBFA18 /* FSCalendarDelegationProxy.m */,
+				D65120CC8EBF0B6A7204438D3A4E9D45 /* FSCalendarDynamicHeader.h */,
+				864F28481E9ECC4652287CB07D63F3B7 /* FSCalendarExtensions.h */,
+				84BBC72BF1BD9B4BEC670325ABECED15 /* FSCalendarExtensions.m */,
+				4BE7547865E50D7FFCAF3467C726BC12 /* FSCalendarHeaderView.h */,
+				87E30D3330BC4DB53F23FF6FCACDFF8E /* FSCalendarHeaderView.m */,
+				EF71C2582348E91298A7B728E2A7F43B /* FSCalendarScopeHandle.h */,
+				52C32A25C0468C2E305EDAD7838245AC /* FSCalendarScopeHandle.m */,
+				693A0BA27C91412D2D6EB778C1E89F66 /* FSCalendarStickyHeader.h */,
+				0BE5F44F3529C4E306BF1BF641D0F467 /* FSCalendarStickyHeader.m */,
+				1C5B0FE03F47E8CF387AE693FCF3C354 /* FSCalendarTransitionCoordinator.h */,
+				691EE5E186644E57B036D997C1402FBD /* FSCalendarTransitionCoordinator.m */,
+				0E944CBC80DA2DE20ED4E38E97B68E74 /* FSCalendarWeekdayView.h */,
+				F077672DFA683DED9D16FE663F9D7C64 /* FSCalendarWeekdayView.m */,
+				325A27FFBF564A883B3776FF0940151C /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		556E5C62E4D43F190BED92FB00DAFB9A /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				0148018892A454CD8D25BF209B8DA633 /* RNCryptor.h */,
+				83C81E596A298C828D283756B0DCA6A1 /* RNCryptor.swift */,
+				C491B7F8B718BD287C433ECCD6793BE7 /* Support Files */,
+			);
+			name = RNCryptor;
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		5F04A05187BD2CA498F9F0396FEE4E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871B7E319BF6DE079B2665436A433253 /* DropDown.framework */,
+				791EF24CC3E16868944CF3A626C0634A /* FSCalendar.framework */,
+				F3EC339DDD1ED35AA37F0BA979C94199 /* JTCalendar.framework */,
+				7994E22E29A6BC97351C4B99CF868E80 /* JVFloatLabeledTextField.framework */,
+				D41898FB76939F19C5EF7D0E5AF48C86 /* libPhoneNumber_iOS.framework */,
+				FC2123F90EC4F65D0633281B2C2B07C3 /* Pods_hynt.framework */,
+				74A2855B46D49DCA200D4FC139DDB1ED /* Pods_hyntTests.framework */,
+				C1F4D4ABA9ED1F720137E44A5C7B4E47 /* Pods_hyntUITests.framework */,
+				BCB119409D64950556659135BEB5289C /* RNCryptor.framework */,
+				64BD369BA37FE843FAD50FF779506587 /* UIFloatLabelTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FF182FEF4BD206B0BA8BEA864A7C3EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4C07C50749C9E39C076FD8D4120BA10 /* Info.plist */,
+				67D18375E0B1FE3204DC76BE5CB20D69 /* JTCalendar.modulemap */,
+				9CDBC8CF81A01BA8BCE7E984875C5CA7 /* JTCalendar.xcconfig */,
+				57EB58B4D72E7F65DF0C143E1F902AAC /* JTCalendar-dummy.m */,
+				9289253D745C56BA48C8E2DB3C44F8F5 /* JTCalendar-prefix.pch */,
+				DFB7AA9EFBD1D2DD0AC2D4E33C2977E2 /* JTCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTCalendar";
+			sourceTree = "<group>";
+		};
+		66E7F6A99B8E93D8E90CB77EE7758BF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E041527E83708487DEAEB0810C53EDD /* DropDown.modulemap */,
+				351E6CB7670871544D9C76DF6E0180CF /* DropDown.xcconfig */,
+				286A29FCE91FDB860312116D0FE16C70 /* DropDown-dummy.m */,
+				D3AA16188602A2A436F5D4059DBA19FB /* DropDown-prefix.pch */,
+				404B8670DB11671AF415A8E3E736AEEC /* DropDown-umbrella.h */,
+				6F9C2E1BE7F9E6A0C0BCCA65E30B5019 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		7B0EF87490BAE9FE9639FF72A85D6FC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				554FC85614B0C57766F3875926CE1167 /* Info.plist */,
+				0FEB05A7C3F5DD8EF6A78B790379D9A4 /* JVFloatLabeledTextField.modulemap */,
+				8CDCEFC69DBE0AADD4061F974AE6009D /* JVFloatLabeledTextField.xcconfig */,
+				AD6F2452A583CF1271EBCA0A3BCFDED2 /* JVFloatLabeledTextField-dummy.m */,
+				469040AE3669F96A0283E8426F9EB0C9 /* JVFloatLabeledTextField-prefix.pch */,
+				CC4793B11F6511A1C188BB794FF685F6 /* JVFloatLabeledTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				9BBC30FFED2F1CEF3B5B89001FB8AE1C /* Pods */,
+				5F04A05187BD2CA498F9F0396FEE4E9A /* Products */,
+				1AA65F48BF2D2798D386A40EF6D7B764 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BBC30FFED2F1CEF3B5B89001FB8AE1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A89655CD7410D5D3E4A5E3E954CC23 /* DropDown */,
+				3AF9D1EEB9F0A4633DEBEA18F1F4CA5C /* FSCalendar */,
+				06EA07BB1F85BDE1F9C3A10F24DA9A0E /* JTCalendar */,
+				C6ED9D698DD9162382A8BE2D91F67444 /* JVFloatLabeledTextField */,
+				C018A9C8D35A7B51C214E0629E19CA3F /* libPhoneNumber-iOS */,
+				556E5C62E4D43F190BED92FB00DAFB9A /* RNCryptor */,
+				C62AD9BD6CEE5920A76FCFD4A93B8F0C /* UIFloatLabelTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C018A9C8D35A7B51C214E0629E19CA3F /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9BBC69D1EBE4773EAADCD9B8FD41F40E /* NBAsYouTypeFormatter.h */,
+				4FEC25F91F8A22E77C3015149662B142 /* NBAsYouTypeFormatter.m */,
+				713B08498420D6FCA8988BA4E6DC47CF /* NBGeneratedPhoneNumberMetaData.h */,
+				0936F1CFCF166136C75E3DE6E623D207 /* NBMetadataHelper.h */,
+				41D060676465AE044A47DAD2CB507879 /* NBMetadataHelper.m */,
+				5923CB40E82037EA5CB26407506E9608 /* NBNumberFormat.h */,
+				002CAD91125F31D84B2D3C64D0FDB1E4 /* NBNumberFormat.m */,
+				9CCAA8515F302FA06CAEA73CADD386A0 /* NBPhoneMetaData.h */,
+				5B6BBEA41F2D6AF0F54CB5426007DC62 /* NBPhoneMetaData.m */,
+				97E86EB353AD932624A2A14CE7C8B455 /* NBPhoneNumber.h */,
+				79F0A5220408D039C2D5613D98298A44 /* NBPhoneNumber.m */,
+				54F83AA2EEDB047702D98542BCF8395D /* NBPhoneNumberDefines.h */,
+				0DF068E7FE98DDD72899E91CB6D0E3E1 /* NBPhoneNumberDefines.m */,
+				01858B1B2221095A2CE572F46A457B4B /* NBPhoneNumberDesc.h */,
+				535F93920C845D400CA85F49CFAB45A0 /* NBPhoneNumberDesc.m */,
+				9DC33BA82C34D09B465720514C8D1021 /* NBPhoneNumberUtil.h */,
+				636EF584EB4B4C4B5FAA4317FE094091 /* NBPhoneNumberUtil.m */,
+				DBE65F1673972D0582EC882A6FE571F4 /* NSArray+NBAdditions.h */,
+				5BDF7C132BF6334D03263C77499B1156 /* NSArray+NBAdditions.m */,
+				0B5F933A739C4D223C4646AD261ACF88 /* Support Files */,
+			);
+			name = "libPhoneNumber-iOS";
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		C0FFCA57B8AF6838AE871A4E61C31BAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8332B8C0BAB827368EC6B870C01AFF81 /* CoreTelephony.framework */,
+				4B43555F423C224C873F21BA0C779966 /* Foundation.framework */,
+				B33AD86396F2CF926382633E14AC08C0 /* QuartzCore.framework */,
+				D1808DA3948C77B5F18257239525607E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C491B7F8B718BD287C433ECCD6793BE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9DB6611D70E58B70BAEF75A91B6836 /* Info.plist */,
+				CBEE3DD36D2B369F7D6766E06827D810 /* RNCryptor.modulemap */,
+				7F63F04C163748022EAB5E58DA0ECCE7 /* RNCryptor.xcconfig */,
+				1CEA7F4D2DA97A4B6153541163892564 /* RNCryptor-dummy.m */,
+				47D1C8AED28023AD47DA1E12C086CC19 /* RNCryptor-prefix.pch */,
+				0FCA5681FA98EC0915174E51CC7C5024 /* RNCryptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
+			sourceTree = "<group>";
+		};
+		C5A89655CD7410D5D3E4A5E3E954CC23 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				8588CC18BD657FF72697032C10B0B0E5 /* DPDConstants.swift */,
+				59AB7840A6EF0E4DB2EA605E1C014E75 /* DPDKeyboardListener.swift */,
+				95A9142DD36364374EF9E2BEB7AAFA25 /* DPDUIView+Extension.swift */,
+				0D001B0525429A21C927F2E2D073F7A2 /* DropDown.swift */,
+				5296B9C70EE3B88A46A65BB4C2478EDA /* DropDown+Appearance.swift */,
+				35BC89F9FD2B1DC48FBA0B78EADF1CB6 /* DropDownCell.swift */,
+				359F03A7DA6DA334C223780E1F5987D7 /* Resources */,
+				66E7F6A99B8E93D8E90CB77EE7758BF3 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		C62AD9BD6CEE5920A76FCFD4A93B8F0C /* UIFloatLabelTextView */ = {
+			isa = PBXGroup;
+			children = (
+				525CEE5627499E10047E8C88A5A2FBC7 /* UIFloatLabelTextView.h */,
+				D4F4E587AD1F0C8492062182D513449B /* UIFloatLabelTextView.m */,
+				C8E9052CA614FADB0DCBCF85CBBC7172 /* Support Files */,
+			);
+			name = UIFloatLabelTextView;
+			path = UIFloatLabelTextView;
+			sourceTree = "<group>";
+		};
+		C6ED9D698DD9162382A8BE2D91F67444 /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				55B3E426FC8E123C9033875779919DDB /* JVFloatLabeledTextField.h */,
+				3C4B525C8DBE107D8CB1EAA5EC831486 /* JVFloatLabeledTextField.m */,
+				2FDC2600A9C501A7A1F25804490B0C60 /* JVFloatLabeledTextView.h */,
+				45CC425A48674DEA22ABBA6173B7EC39 /* JVFloatLabeledTextView.m */,
+				4C326971E74680DF5153CADE50554D35 /* NSString+TextDirectionality.h */,
+				48F72A1743E979293BE12498443EC25A /* NSString+TextDirectionality.m */,
+				7B0EF87490BAE9FE9639FF72A85D6FC2 /* Support Files */,
+			);
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
+			sourceTree = "<group>";
+		};
+		C8E9052CA614FADB0DCBCF85CBBC7172 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B397084175DB598CC2D9BC0263BC363 /* Info.plist */,
+				E2C41059046FE26C342BB094FD5BCBA6 /* UIFloatLabelTextView.modulemap */,
+				AC71046C6CC2B222304A3B520814858D /* UIFloatLabelTextView.xcconfig */,
+				E8726B5C4EC5D68267AF05D8977C3E08 /* UIFloatLabelTextView-dummy.m */,
+				EA4F86FF0F3F76BF4DA4141A7CEEFB3B /* UIFloatLabelTextView-prefix.pch */,
+				33DE6D3AEF4CB7C55EE6A2C94630C592 /* UIFloatLabelTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIFloatLabelTextView";
+			sourceTree = "<group>";
+		};
+		D92524BCD4A78508FBA18990FE9C15A8 /* Pods-hyntTests */ = {
+			isa = PBXGroup;
+			children = (
+				E85F8E2F6C0B85FFF88AF5472D1EC874 /* Info.plist */,
+				2808577A0885F34A91F3ADEBC003E0C0 /* Pods-hyntTests.modulemap */,
+				8C7032E64AFB97F7C1E776EDB8959FD7 /* Pods-hyntTests-acknowledgements.markdown */,
+				D77496CAF83A1D9DCB3D05DFE43FC967 /* Pods-hyntTests-acknowledgements.plist */,
+				B255EC58F06866CC48524B16AC415461 /* Pods-hyntTests-dummy.m */,
+				CFC83F4C2316538D3E10D8EB700029CA /* Pods-hyntTests-frameworks.sh */,
+				00C0134266C66E76FA9533BACC96FA78 /* Pods-hyntTests-resources.sh */,
+				31A0C77EA9429901A91F5E221708C853 /* Pods-hyntTests-umbrella.h */,
+				1DD4853A2F218C05CD465088AC31F311 /* Pods-hyntTests.debug.xcconfig */,
+				88BFCABF2967CAF2629004B02ABA8944 /* Pods-hyntTests.release.xcconfig */,
+			);
+			name = "Pods-hyntTests";
+			path = "Target Support Files/Pods-hyntTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		147BF4516FB03B96CA2F9D0A18C964D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C81B83B197687339BAFEBACF834A7E7 /* Pods-hynt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A2487D7DCCAC138983CB613FF199CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A9D8DE6532F61A7DBC127B18B51F21 /* RNCryptor-umbrella.h in Headers */,
+				FCF2C0A097403FF47FB7EE71B85E5F22 /* RNCryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3473CFBAB4560B0A9E3FA1810E1E7293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0CB1F8EC8661BBD9C31FB5D31744B7 /* Pods-hyntUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F30FDF6121979F5777502178F6AA867 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243B9FA63C5E0497B5E37531A449C4BB /* JTCalendar-umbrella.h in Headers */,
+				3FF9B6657B9A9822C3AC3F42F7850D1C /* JTCalendar.h in Headers */,
+				96F082A9300515C630F999FB7827703A /* JTCalendarDay.h in Headers */,
+				FB7B7935E8D49CEECA76351C2E627A1A /* JTCalendarDayView.h in Headers */,
+				4B23649D5D47A1D543CAD57FE0C55485 /* JTCalendarDelegate.h in Headers */,
+				3D284A341F5C87509CF6534F8D5E123F /* JTCalendarDelegateManager.h in Headers */,
+				9C06176E7C7CEF175C6D414C2471BBAB /* JTCalendarManager.h in Headers */,
+				DD46ED3E8210670622678094C2CE52BC /* JTCalendarMenuView.h in Headers */,
+				76676DF0923C4E4869BEAA1C111BEF28 /* JTCalendarPage.h in Headers */,
+				3160FE445C0D90A20AE73A4C9B7576E8 /* JTCalendarPageView.h in Headers */,
+				3E56943C3F8A140BB52C923E3DDD5E5E /* JTCalendarScrollManager.h in Headers */,
+				6B825307B0FFE80EB445C90B9511CA36 /* JTCalendarSettings.h in Headers */,
+				47ADAA487B332C0BE92AADA45A945D88 /* JTCalendarWeek.h in Headers */,
+				644CF20680709923E73B3EABD64EFDD4 /* JTCalendarWeekDay.h in Headers */,
+				78F6D04BCFD8C2D43D11E09EC4302679 /* JTCalendarWeekDayView.h in Headers */,
+				609C01755F6E60329D1849FC34911CD5 /* JTCalendarWeekView.h in Headers */,
+				D1AE1C1C29836A4C9BE54E8CDFB948C0 /* JTContent.h in Headers */,
+				97EA76FA3D25BE981550B5FA457C83FF /* JTDateHelper.h in Headers */,
+				AB0A7E26E5DF1D0B6D0A89A603CD1ED7 /* JTHorizontalCalendarView.h in Headers */,
+				A0B31C86A693F0CE6C51244C5D635D58 /* JTMenu.h in Headers */,
+				BFD75AA9E3880BD461D3064EF4E19DB8 /* JTVerticalCalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6263EC36C0247F90804327A108E080AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E89B307286C380DDFF180B1F9B5E39 /* UIFloatLabelTextView-umbrella.h in Headers */,
+				7A0596228C7A7BB0D92559CB00F03683 /* UIFloatLabelTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F0D1F63077C9B33B3D69CA701091F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA18A75ABDCB1E0332CF30A350D8823 /* libPhoneNumber-iOS-umbrella.h in Headers */,
+				BFE8F45F896D7E46E916BE3CF325F527 /* NBAsYouTypeFormatter.h in Headers */,
+				716E176A167905B1AEFD5C4365639099 /* NBGeneratedPhoneNumberMetaData.h in Headers */,
+				7BB4C45BCD78B1341B851101FC3E31C8 /* NBMetadataHelper.h in Headers */,
+				8915500754976C30F332884A76C3A7D6 /* NBNumberFormat.h in Headers */,
+				9917D2807A2BC892287E23B31473FD42 /* NBPhoneMetaData.h in Headers */,
+				385C599D0428B7DDC3A9BAC6667FF0B4 /* NBPhoneNumber.h in Headers */,
+				2728662C4DA06ED276E83310682A5652 /* NBPhoneNumberDefines.h in Headers */,
+				D928434EC65FCBA51602E08EED29AC12 /* NBPhoneNumberDesc.h in Headers */,
+				054639B0385BA11CDFE766E3B31CFD7D /* NBPhoneNumberUtil.h in Headers */,
+				CD2948F9AA2FBA57A340C3722749E534 /* NSArray+NBAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E024E8F04F89BD9CCB716D13C509845 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A59E4505A5AA88A43B8C0D561C3D6B /* Pods-hyntTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1693C9073C80C3C23D870E146BB68E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */,
+				F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */,
+				68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */,
+				6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5EFE33C112D00A2A9DE597CBC519EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625F05F7702CA250DEB66A699766DA9E /* FSCalendar-umbrella.h in Headers */,
+				9CF04404C01848D25E78B22A88BFF129 /* FSCalendar.h in Headers */,
+				FD051B5A9F3E663081656EB261A724D2 /* FSCalendarAppearance.h in Headers */,
+				F746795DC38AD2DB3D584A110174FED0 /* FSCalendarCalculator.h in Headers */,
+				F75DFB5A6E8642C4964CC3968A2DD0C8 /* FSCalendarCell.h in Headers */,
+				E3B93CDF418A2678614DDAD9331C0C0D /* FSCalendarCollectionView.h in Headers */,
+				91693C90642539B4F411E794548A9E2A /* FSCalendarCollectionViewLayout.h in Headers */,
+				0A7AF0E9B853211DE831CAAD4C21F11C /* FSCalendarConstants.h in Headers */,
+				57D4F36C483A487950FA1F143AE5DCBC /* FSCalendarDelegationFactory.h in Headers */,
+				49F1C59A34E52484FD2B6462CE8D7C91 /* FSCalendarDelegationProxy.h in Headers */,
+				712FF0C70B4C85F44AFB5CDDC1DD9018 /* FSCalendarDynamicHeader.h in Headers */,
+				C69663957B2EB4C7CF4D8192480AA8B4 /* FSCalendarExtensions.h in Headers */,
+				F6A1EC699E916996EF2B7B4C6137DB8D /* FSCalendarHeaderView.h in Headers */,
+				E1B077BAFD8840CA3D96BB4545B7B255 /* FSCalendarScopeHandle.h in Headers */,
+				D4F3BEEB43698475E5443150838E84ED /* FSCalendarStickyHeader.h in Headers */,
+				BDA1ED05CBA5580B30785A431D5B231B /* FSCalendarTransitionCoordinator.h in Headers */,
+				C17D68C964954EF1C0BB3C314C2F452F /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		168F0C9A0D5F836428454E5CAAB17290 /* RNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7E2E893AEAD750316F225438067413 /* Build configuration list for PBXNativeTarget "RNCryptor" */;
+			buildPhases = (
+				672532E9ADDC073C801046A7C7814B75 /* Sources */,
+				4DE21423C96A6E189FBAB4EA6223EE8F /* Frameworks */,
+				17A2487D7DCCAC138983CB613FF199CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCryptor;
+			productName = RNCryptor;
+			productReference = BCB119409D64950556659135BEB5289C /* RNCryptor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */;
+			buildPhases = (
+				331CAB23E830D1AA0768D9AC301E22B6 /* Sources */,
+				5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */,
+				B1693C9073C80C3C23D870E146BB68E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVFloatLabeledTextField;
+			productName = JVFloatLabeledTextField;
+			productReference = 7994E22E29A6BC97351C4B99CF868E80 /* JVFloatLabeledTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30748F2D2033D797459DD69CA6444FE6 /* Pods-hyntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585FC5B6B9B64DC567593A69EA07817E /* Build configuration list for PBXNativeTarget "Pods-hyntTests" */;
+			buildPhases = (
+				28012A123BCABFBF5E067D5787AA053E /* Sources */,
+				109D1715E0C92E8726838F4E1EB21972 /* Frameworks */,
+				9E024E8F04F89BD9CCB716D13C509845 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hyntTests";
+			productName = "Pods-hyntTests";
+			productReference = 74A2855B46D49DCA200D4FC139DDB1ED /* Pods_hyntTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3939E3A0C7258B1A770EE423FA365322 /* Pods-hyntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626D54E23AA22A6748B99471C604A3AD /* Build configuration list for PBXNativeTarget "Pods-hyntUITests" */;
+			buildPhases = (
+				AE57205E075E3F706E487CFE0EDB7B9A /* Sources */,
+				762D577E954F4BEDD2A163626E950129 /* Frameworks */,
+				3473CFBAB4560B0A9E3FA1810E1E7293 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-hyntUITests";
+			productName = "Pods-hyntUITests";
+			productReference = C1F4D4ABA9ED1F720137E44A5C7B4E47 /* Pods_hyntUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				ED45CA897A4B81CB8204042001D7AEE8 /* Sources */,
+				3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */,
+				D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */,
+				1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 871B7E319BF6DE079B2665436A433253 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D4104A3BA54DA673490171218E4B06F /* libPhoneNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF79DA042C5AC96D46B604698337277 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */;
+			buildPhases = (
+				2CCE8965FFE29A4E9506C0C652A8818B /* Sources */,
+				1C1C02EDB1CCEE08F62A34C0381D2E95 /* Frameworks */,
+				76F0D1F63077C9B33B3D69CA701091F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libPhoneNumber-iOS";
+			productName = "libPhoneNumber-iOS";
+			productReference = D41898FB76939F19C5EF7D0E5AF48C86 /* libPhoneNumber_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D0AFD51BF2D04784321D0DCD086326 /* JTCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1455E9B863305C3B22D39CBC9EC8DC /* Build configuration list for PBXNativeTarget "JTCalendar" */;
+			buildPhases = (
+				4D3939C56879791378DFFE26E428F5F2 /* Sources */,
+				3B999999600C040423AA2BC41F1612A5 /* Frameworks */,
+				4F30FDF6121979F5777502178F6AA867 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTCalendar;
+			productName = JTCalendar;
+			productReference = F3EC339DDD1ED35AA37F0BA979C94199 /* JTCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF8CD354013E2AD7784DAAECDE522CDD /* UIFloatLabelTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA7BEF9D9428C5804C52E399348DBAC /* Build configuration list for PBXNativeTarget "UIFloatLabelTextView" */;
+			buildPhases = (
+				89027BC4F70234BC21C3C1550B2C2E30 /* Sources */,
+				D11AA3E1EF2D9136946E3E0E8E62CA95 /* Frameworks */,
+				6263EC36C0247F90804327A108E080AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIFloatLabelTextView;
+			productName = UIFloatLabelTextView;
+			productReference = 64BD369BA37FE843FAD50FF779506587 /* UIFloatLabelTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E489D1BD67E6516082312A3038C627E /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				3ECDCA9AFCCC7F02686144C6CFD30A86 /* Sources */,
+				2B0C121755DBF940DA569A041E683C9E /* Frameworks */,
+				FA5EFE33C112D00A2A9DE597CBC519EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 791EF24CC3E16868944CF3A626C0634A /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9CE9BE4F070E642A62DD1CFB50C1392 /* Pods-hynt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF25CC010C763365274C0C11DA40FA9A /* Build configuration list for PBXNativeTarget "Pods-hynt" */;
+			buildPhases = (
+				ABC23F190B7718BA87B329399B1E9317 /* Sources */,
+				7E1D56CE4EE7FA5AD25D95C4188EC516 /* Frameworks */,
+				147BF4516FB03B96CA2F9D0A18C964D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A1C5758EEC5650A2AD886AC96C8166 /* PBXTargetDependency */,
+				4C477C2C1DA3B1D27D7BBE4FEEE31B05 /* PBXTargetDependency */,
+				3213015C8E74CEB73B6F3C8DC7EF12AA /* PBXTargetDependency */,
+				12111E89DDB9E8DB025E79B5339837BC /* PBXTargetDependency */,
+				F360CC1D74352AAB61DEBDB22F4A620B /* PBXTargetDependency */,
+				D463B1796D9A5E7501FA5A1A4C897E0F /* PBXTargetDependency */,
+				85B2364EDED411B3004E4191114BD965 /* PBXTargetDependency */,
+			);
+			name = "Pods-hynt";
+			productName = "Pods-hynt";
+			productReference = FC2123F90EC4F65D0633281B2C2B07C3 /* Pods_hynt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F04A05187BD2CA498F9F0396FEE4E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */,
+				C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */,
+				91D0AFD51BF2D04784321D0DCD086326 /* JTCalendar */,
+				2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */,
+				7D4104A3BA54DA673490171218E4B06F /* libPhoneNumber-iOS */,
+				D9CE9BE4F070E642A62DD1CFB50C1392 /* Pods-hynt */,
+				30748F2D2033D797459DD69CA6444FE6 /* Pods-hyntTests */,
+				3939E3A0C7258B1A770EE423FA365322 /* Pods-hyntUITests */,
+				168F0C9A0D5F836428454E5CAAB17290 /* RNCryptor */,
+				AF8CD354013E2AD7784DAAECDE522CDD /* UIFloatLabelTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28012A123BCABFBF5E067D5787AA053E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE2DDF21B6444FB9A99049B83418D36 /* Pods-hyntTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCE8965FFE29A4E9506C0C652A8818B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787A4A61B532320C8C3142A01E49913E /* libPhoneNumber-iOS-dummy.m in Sources */,
+				BC807C5785F52F2415B924D6891C2FE4 /* NBAsYouTypeFormatter.m in Sources */,
+				419F8A84894707DCEE244BB4BF56825F /* NBMetadataHelper.m in Sources */,
+				22B2B5F3C94C242D162CC00EC4F14310 /* NBNumberFormat.m in Sources */,
+				8C36B5E6A7A185124F987F56AD07E7EE /* NBPhoneMetaData.m in Sources */,
+				7D677752B713A120C53E066755F8DEFE /* NBPhoneNumber.m in Sources */,
+				55257B6A99903EB37356CC258508F98E /* NBPhoneNumberDefines.m in Sources */,
+				988E9C20C2B236BE7E6DF275E015AD41 /* NBPhoneNumberDesc.m in Sources */,
+				6B8663CE1BF0652D1A693685684D812C /* NBPhoneNumberUtil.m in Sources */,
+				9923267D03A048FAE1B5ED85D1C0A10A /* NSArray+NBAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331CAB23E830D1AA0768D9AC301E22B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */,
+				F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */,
+				36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */,
+				9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECDCA9AFCCC7F02686144C6CFD30A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D1147CED9648BEDE2E47B8E8A44924 /* FSCalendar+Deprecated.m in Sources */,
+				8632FCFA0471878FC95240290BE97458 /* FSCalendar-dummy.m in Sources */,
+				66737F48243D514269C499D65A7B4DBE /* FSCalendar.m in Sources */,
+				0DD46AF65FABE6D2BDE4501F807046A6 /* FSCalendarAppearance.m in Sources */,
+				FFBEAF63A28F6A7DD881E8256F9503B7 /* FSCalendarCalculator.m in Sources */,
+				55F4561E55A6CF264BEDB8FB18B5FA8C /* FSCalendarCell.m in Sources */,
+				7E320930D1F4218F307C7FB786F0C514 /* FSCalendarCollectionView.m in Sources */,
+				A000A7A7023F7FB4CEDD1023EB87BF93 /* FSCalendarCollectionViewLayout.m in Sources */,
+				243E3FBB25AD6B55CDF6971E0D22DA4F /* FSCalendarConstants.m in Sources */,
+				F54E2CAED6EAE74D9E1F878E10FA30BD /* FSCalendarDelegationFactory.m in Sources */,
+				AA978FCF3EF1D8D10DDE3BB4C6312A7B /* FSCalendarDelegationProxy.m in Sources */,
+				96E021283F050BCADF9A9B668C77B203 /* FSCalendarExtensions.m in Sources */,
+				5C62C27E2855390100E9519DE3095DDB /* FSCalendarHeaderView.m in Sources */,
+				8E8E60E0406837DF7038528766C90AEA /* FSCalendarScopeHandle.m in Sources */,
+				EE078A13105301767BE0ECAC1705A9B5 /* FSCalendarStickyHeader.m in Sources */,
+				CDB052C277F6148BBAACB2C2C7C6321B /* FSCalendarTransitionCoordinator.m in Sources */,
+				8F7003744526BA3547F59200EE4F4D16 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3939C56879791378DFFE26E428F5F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1838A533D456F91341DAC7A4AF2A536 /* JTCalendar-dummy.m in Sources */,
+				1EBB5121C4545A0E009022F5C1EAA09D /* JTCalendarDayView.m in Sources */,
+				64AB5C8C4A9C63B94DCD3653E2BA1E6F /* JTCalendarDelegateManager.m in Sources */,
+				F359A17C6620C1648BB8B72A97146F42 /* JTCalendarManager.m in Sources */,
+				310361CE75893671536852D251EF2965 /* JTCalendarMenuView.m in Sources */,
+				B3916040717DB6828E733D3DF2E0A644 /* JTCalendarPageView.m in Sources */,
+				F49C48CE2C00DA8FAB63DB9D7FD9C6BC /* JTCalendarScrollManager.m in Sources */,
+				65D29E6337F3E00B4AA40E420C020E9F /* JTCalendarSettings.m in Sources */,
+				B314AF5162665C79E15AD40098948D96 /* JTCalendarWeekDayView.m in Sources */,
+				9A2B80AE50EC1185034E39EA0B3DDCAC /* JTCalendarWeekView.m in Sources */,
+				2F0BAB070948B762475A50B5B10818EC /* JTDateHelper.m in Sources */,
+				A34F68E88AD06D7C7BD7C3C73321E8C9 /* JTHorizontalCalendarView.m in Sources */,
+				CB49B851E1D22A9F04A5408C21ED4137 /* JTVerticalCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672532E9ADDC073C801046A7C7814B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D912A8C27B10CB8AFE27F5D033ABA820 /* RNCryptor-dummy.m in Sources */,
+				9B86CE7EEE2BDC7C977647FB9910661B /* RNCryptor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89027BC4F70234BC21C3C1550B2C2E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1F532E45B6AFA52AD301FF8C427621 /* UIFloatLabelTextView-dummy.m in Sources */,
+				232C7277329679ED188DE4EF423BA28C /* UIFloatLabelTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC23F190B7718BA87B329399B1E9317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E23C06F436F8ABADECC8A7CA2C0E05 /* Pods-hynt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE57205E075E3F706E487CFE0EDB7B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A10F4D36A9CB67777C466CD259AB08 /* Pods-hyntUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED45CA897A4B81CB8204042001D7AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */,
+				9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */,
+				A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */,
+				442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */,
+				AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */,
+				02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */,
+				098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12111E89DDB9E8DB025E79B5339837BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFloatLabeledTextField;
+			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
+			targetProxy = BDF0C1EC9B35F0514D0AE69866ED43C0 /* PBXContainerItemProxy */;
+		};
+		3213015C8E74CEB73B6F3C8DC7EF12AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTCalendar;
+			target = 91D0AFD51BF2D04784321D0DCD086326 /* JTCalendar */;
+			targetProxy = 9B42F42286EE19D5464378B1D472707F /* PBXContainerItemProxy */;
+		};
+		44A1C5758EEC5650A2AD886AC96C8166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */;
+			targetProxy = 07E85756C22792CE6A76EF7434E50030 /* PBXContainerItemProxy */;
+		};
+		4C477C2C1DA3B1D27D7BBE4FEEE31B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = C5A2DB7A84B7B78E359870D2E1B24AA7 /* FSCalendar */;
+			targetProxy = 14429CF6E87E9FA1192D9E487AE63D0B /* PBXContainerItemProxy */;
+		};
+		85B2364EDED411B3004E4191114BD965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 7D4104A3BA54DA673490171218E4B06F /* libPhoneNumber-iOS */;
+			targetProxy = E6D9E6FDB732B1062C68E800EFBA2BCD /* PBXContainerItemProxy */;
+		};
+		D463B1796D9A5E7501FA5A1A4C897E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIFloatLabelTextView;
+			target = AF8CD354013E2AD7784DAAECDE522CDD /* UIFloatLabelTextView */;
+			targetProxy = 7F97A6367A06C8A62C2C707DA2431A0C /* PBXContainerItemProxy */;
+		};
+		F360CC1D74352AAB61DEBDB22F4A620B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RNCryptor;
+			target = 168F0C9A0D5F836428454E5CAAB17290 /* RNCryptor */;
+			targetProxy = 0A8901B8C7046432BDFF096C86208DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0A4504F22415E59B08B1DB74F0114298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC71046C6CC2B222304A3B520814858D /* UIFloatLabelTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIFloatLabelTextView/UIFloatLabelTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIFloatLabelTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIFloatLabelTextView/UIFloatLabelTextView.modulemap";
+				PRODUCT_NAME = UIFloatLabelTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C3F30409149F7A5765B16C93233CB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351E6CB7670871544D9C76DF6E0180CF /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		221B511875E337B9B27EF85A2461955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F63F04C163748022EAB5E58DA0ECCE7 /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29BEE4206132EC1533FCEC79D40885E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDCEFC69DBE0AADD4061F974AE6009D /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AFD07C2831877C2FEFF45DFB350BB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C7D1CF500D57A0D84B6E62D36CD531 /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A5F006B9FF2736E878CC1A9925DC516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDBC8CF81A01BA8BCE7E984875C5CA7 /* JTCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTCalendar/JTCalendar.modulemap";
+				PRODUCT_NAME = JTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		586437F051A57A30F953403CD0C3989B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD4853A2F218C05CD465088AC31F311 /* Pods-hyntTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hyntTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hyntTests/Pods-hyntTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hyntTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6202A79A99BEF54CF66C841E02531705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F63F04C163748022EAB5E58DA0ECCE7 /* RNCryptor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RNCryptor/RNCryptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RNCryptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RNCryptor/RNCryptor.modulemap";
+				PRODUCT_NAME = RNCryptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C08EDD39ED51C29068DEA16E8CED339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C88B54A85486CF747E50226A40D0FAD /* Pods-hynt.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hynt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hynt/Pods-hynt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hynt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		771CA8511DD0BD87CFD616DEA674C7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BFCABF2967CAF2629004B02ABA8944 /* Pods-hyntTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hyntTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hyntTests/Pods-hyntTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hyntTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90FAE676AD9B09F5A16F4B31E0EEA24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C7D1CF500D57A0D84B6E62D36CD531 /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99F30834D5F0DE82F011B2005AC1533E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351E6CB7670871544D9C76DF6E0180CF /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A481EC3639881C7F8C243742EFDFECF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A52128EAA55198C429FC70BDE937D4 /* Pods-hynt.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hynt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hynt/Pods-hynt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hynt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B430DD5A2A4F860100F86E2FCF3D63D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C3C62C4CEBF6323905651882A5874D /* Pods-hyntUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hyntUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hyntUITests/Pods-hyntUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hyntUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6CAEAE9E4B91F0AAEEF094487E96DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910C7FFBE7A1F297C737ADEE1B425D20 /* Pods-hyntUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-hyntUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-hyntUITests/Pods-hyntUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_hyntUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA74C672D3C62F8DE7513288F4F0900A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDCEFC69DBE0AADD4061F974AE6009D /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVFloatLabeledTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF405426857C065123D950465A8AEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC5D514D6E066C832A0C5DA8220B7C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3D8A8831E745BCDE5456DDD05FB1EB /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAAC36CEF79E7F231CC2655C050B7EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3D8A8831E745BCDE5456DDD05FB1EB /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDD2AD5DEFBABF2CC261D4DF35AEA549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDBC8CF81A01BA8BCE7E984875C5CA7 /* JTCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JTCalendar/JTCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTCalendar/JTCalendar.modulemap";
+				PRODUCT_NAME = JTCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF7B8D95BC83278C0C25FDEBB38002B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC71046C6CC2B222304A3B520814858D /* UIFloatLabelTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIFloatLabelTextView/UIFloatLabelTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIFloatLabelTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIFloatLabelTextView/UIFloatLabelTextView.modulemap";
+				PRODUCT_NAME = UIFloatLabelTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF405426857C065123D950465A8AEFA /* Debug */,
+				00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F30834D5F0DE82F011B2005AC1533E /* Debug */,
+				1C3F30409149F7A5765B16C93233CB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585FC5B6B9B64DC567593A69EA07817E /* Build configuration list for PBXNativeTarget "Pods-hyntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586437F051A57A30F953403CD0C3989B /* Debug */,
+				771CA8511DD0BD87CFD616DEA674C7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626D54E23AA22A6748B99471C604A3AD /* Build configuration list for PBXNativeTarget "Pods-hyntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B430DD5A2A4F860100F86E2FCF3D63D1 /* Debug */,
+				B6CAEAE9E4B91F0AAEEF094487E96DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7E2E893AEAD750316F225438067413 /* Build configuration list for PBXNativeTarget "RNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221B511875E337B9B27EF85A2461955B /* Debug */,
+				6202A79A99BEF54CF66C841E02531705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1455E9B863305C3B22D39CBC9EC8DC /* Build configuration list for PBXNativeTarget "JTCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD2AD5DEFBABF2CC261D4DF35AEA549 /* Debug */,
+				3A5F006B9FF2736E878CC1A9925DC516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29BEE4206132EC1533FCEC79D40885E4 /* Debug */,
+				BA74C672D3C62F8DE7513288F4F0900A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF79DA042C5AC96D46B604698337277 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFD07C2831877C2FEFF45DFB350BB46 /* Debug */,
+				90FAE676AD9B09F5A16F4B31E0EEA24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E489D1BD67E6516082312A3038C627E /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAC36CEF79E7F231CC2655C050B7EF0 /* Debug */,
+				DC5D514D6E066C832A0C5DA8220B7C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF25CC010C763365274C0C11DA40FA9A /* Build configuration list for PBXNativeTarget "Pods-hynt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A481EC3639881C7F8C243742EFDFECF6 /* Debug */,
+				6C08EDD39ED51C29068DEA16E8CED339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA7BEF9D9428C5804C52E399348DBAC /* Build configuration list for PBXNativeTarget "UIFloatLabelTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B8D95BC83278C0C25FDEBB38002B9 /* Debug */,
+				0A4504F22415E59B08B1DB74F0114298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

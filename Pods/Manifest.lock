@@ -1,0 +1,30 @@
+PODS:
+  - DropDown (2.3.2)
+  - FSCalendar (2.7.9)
+  - JTCalendar (2.2.3)
+  - JVFloatLabeledTextField (1.2.1)
+  - libPhoneNumber-iOS (0.9.13)
+  - RNCryptor (5.0.3)
+  - UIFloatLabelTextView (1.0.10)
+
+DEPENDENCIES:
+  - DropDown
+  - FSCalendar
+  - JTCalendar
+  - JVFloatLabeledTextField
+  - libPhoneNumber-iOS
+  - RNCryptor
+  - UIFloatLabelTextView
+
+SPEC CHECKSUMS:
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  JTCalendar: f54975f1426facc38d112f372f0d3d955aae8d86
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  UIFloatLabelTextView: 96b7c5a18739fd1af8fd9480f7943d75a7547e4d
+
+PODFILE CHECKSUM: be57753e303065494aaad1ccda5f3bca31d27abe
+
+COCOAPODS: 1.4.0
